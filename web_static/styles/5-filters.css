@@ -26,3 +26,24 @@
 .container section.filters button:hover {
 	background-color: rgba(255, 90, 95, .9);
 }
+
+.container section.filters div {
+	display: inline-block;
+	height: 100%;
+	width: 25%;
+	padding-left: 50px;
+}
+
+.container .locations {
+	border-right: 1px solid #DDDDDD;
+}
+
+section.filters div h3 {
+	font-weight: 600;
+	padding-top: 20px;
+}
+
+section.filters div h4 {
+	font-weight: 400;
+	font-size: 14px;
+}
