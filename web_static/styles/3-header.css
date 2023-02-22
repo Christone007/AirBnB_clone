@@ -50,6 +50,9 @@ table {
 
 /* END OF THE ERIC MEYER'S RESET */
 
+* {
+	box-sizing: border-box;
+	 }
 
 /*
 ========================================
