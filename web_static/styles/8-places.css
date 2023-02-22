@@ -38,6 +38,8 @@ article h2 {
 	position: relative;
 	top: -38px;
 	margin-bottom: 0px;
+	padding-top: 13px;
+	padding-bottom: 13px;
 }
 
 .information {
@@ -45,7 +47,7 @@ article h2 {
 	height: 80px;
 	border-top: 1px solid #DDDDDD;
 	border-bottom: 1px solid #DDDDDD;
-	display: inline-block;
+	display: block;
 }
 
 .information div {
@@ -67,4 +69,18 @@ article h2 {
 
 .number_bathrooms {
 	background-image: url("../images/icon_bath.png");
+}
+
+.user span {
+	font-weight: bold;
+}
+
+.user,
+.description {
+	text-align: left;
+}
+
+.user {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
